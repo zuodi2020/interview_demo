@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.848 s <<< FAILURE! - in TestSuite
+beforeTestBase(com.zd.interview_test.base.TestCaseBase)  Time elapsed: 0.718 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\newcode\interview_test\chromedriver_win32
+	at com.zd.interview_test.base.TestCaseBase.beforeTestBase(TestCaseBase.java:13)
+
+imageSearch_Test(com.zd.interview_test.test.ImagePageTest)  Time elapsed: 0.736 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [imageSearch_Test] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
